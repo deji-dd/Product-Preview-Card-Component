@@ -1,0 +1,55 @@
+body {
+  background-color: hsl(30, 38%, 92%) !important;
+}
+
+p, .p {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 0.875rem;
+  color: hsl(212, 21%, 14%);
+}
+
+h1 {
+  font-family: 'Fraunces', serif !important;
+}
+
+.three {
+  border-top-left-radius: 0.8rem !important;
+  border-top-right-radius: 0.8rem !important;
+}
+
+@media(min-width: 960px) {
+  .three {
+    border-bottom-left-radius: 0.8rem !important;
+    border-top-left-radius: 0.8rem !important;
+    border-top-right-radius: 0 !important;
+  }
+}
+
+.one {
+  background: white !important;
+  border-bottom-right-radius: 0.8rem !important;
+  border-bottom-left-radius: 0.8rem !important;
+}
+
+@media(min-width: 960px) {
+  .one {
+    border-bottom-right-radius: 0.8rem !important;
+    border-top-right-radius: 0.8rem !important;
+    border-bottom-left-radius: 0 !important;
+  }
+}
+
+.two {
+  font-weight: 700 !important;
+  letter-spacing: 0.2rem !important;
+}
+
+.six {
+  color: hsl(158, 36%, 37%) !important;
+}
+
+.seven, .seven:hover {
+  font-size: 0.875rem !important;
+  color: white;
+  text-decoration: none;
+}
